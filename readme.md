@@ -1,1 +1,1 @@
-[Raspberry pi installation](./Raspberry_pi_installation.md)
+[Raspberry pi installation](./documentation/Raspberry_pi_installation.md)
