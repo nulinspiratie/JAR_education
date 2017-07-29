@@ -84,7 +84,7 @@ It is therefore recommended to create a Wi-Fi hotspot on the laptop/pc, and use 
 	III. Retype password and press enter again
 2. Create service to start kernel upon boot
 	I. In terminal, run: sudo nano /usr/lib/systemd/system/jupyter.service
-	II. Copy the [jupyter.service](###jupyter.service file) code into the terminal.
+	II. Copy the [jupyter.service](###jupyter.service) code into the terminal.
 	III. Save and exit
 		A. press ctrl+w to exit
 		B. press y when it asks if you want to save
@@ -100,7 +100,7 @@ It is therefore recommended to create a Wi-Fi hotspot on the laptop/pc, and use 
 You should now be able to access jupyter notebook that's running on the Raspberry pi from your laptop.
 When configured with the PixHawk, this also means you can interactively send commands to your drone.
 
-### jupyter.service file
+### jupyter.service
 ```
 [Unit]
 Description=Jupyter Notebook
