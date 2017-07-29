@@ -26,22 +26,22 @@
 ## Raspberry Pi equipment
 
 ### Equipment that we only need once
-- [x] HDMI cable
-- [x] mini-HDMI to HDMI converter
-- [x] USB hub
-- [ ] keyboard and mouse
-- [ ] Laptop that can create Wi-Fi hotspot
-- [x] Soldering station
+[x] HDMI cable
+[x] mini-HDMI to HDMI converter
+[x] USB hub
+[ ] keyboard and mouse
+[ ] Laptop that can create Wi-Fi hotspot
+[x] Soldering station
 	- I could probably use the one in the lab
-- [ ] USB power adapter
+[ ] USB power adapter
 
 ### Equipment per drone
-- Raspberry Pi Zero W
+[ ] Raspberry Pi Zero W
 	- W stands for Wi-Fi
-- microSD card 
+[ ] microSD card 
 	- maybe preferrable with NOOBS preinstalled, not sure yet
-- USB to micro-USB cable
-- Break-away 0.1 2x20-pin Strip Dual Male Header
+[ ] USB to micro-USB cable
+[ ] Break-away 0.1 2x20-pin Strip Dual Male Header
 	- These GPIO pins need to be soldered onto the Raspberry Pi
-- Raspberry Pi Zero case (optional)
+[ ] Raspberry Pi Zero case (optional)
 	- Might make installing it onto the drone easier
