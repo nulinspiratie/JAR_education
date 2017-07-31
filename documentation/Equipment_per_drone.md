@@ -15,6 +15,8 @@ If an item is not ticked, it either means we don't have it at all, or we don't h
 - [ ] LiPo battery pack
 - [ ] Power module
 - [ ] 4 ESC motors
+- [ ] 6-inch propellers
+	- At least four per drone, probably more since they break easily
 - [ ] GPS
 - [ ] Rotors
 - [x] Jumper lead cables
