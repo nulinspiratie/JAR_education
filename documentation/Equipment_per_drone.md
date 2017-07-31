@@ -19,6 +19,8 @@ If an item is not ticked, it either means we don't have it at all, or we don't h
 - [ ] Rotors
 - [x] Jumper lead cables
 	- We should have sufficient of these already
+- [ ] 5-pin DF13 to breakout connector
+	- Must satisfy connectivity shown on http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html
 - [ ] 4x AAA batteries
 - [ ] Case that can draw current from 4 AAA batteries.
 - [ ] Potentially PPM encoder + RC receiver/tranmitter
