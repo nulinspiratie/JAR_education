@@ -155,4 +155,6 @@ Nevertheless, it can serve as a guide when instructions are unclear.
 ![Schematic](./schematic.jpg)
 
 ## Links
-Info on ESC, motors, propellers: [http://ardupilot.org/copter/docs/connect-escs-and-motors.html]
+- Info on ESC, motors, propellers: [http://ardupilot.org/copter/docs/connect-escs-and-motors.html]
+- Info on schematic: [http://ardupilot.org/copter/docs/advanced-pixhawk-quadcopter-wiring-chart.html]
+- Connecting to Raspberry Pi: [http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html]
