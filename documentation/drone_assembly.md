@@ -1,4 +1,6 @@
 # Drone assembly
+The below instructions describe how to assemble your own drone using parts provided by JAR education.
+At the end, you should have a quadcopter drone that with GPS that can be programmed by a Raspberry Pi.
 
 ## General tips when assembling a drone
 - Heavy items should be low. This will lower the center of mass and will help stabilize the drone.
@@ -50,7 +52,7 @@ There may be a pole that the GPS can be placed on top of.
 
 The GPS comes with a built-in compass. The arrow of the GPS/compass should be pointing to the front of the drone (as accurately as possible). The PixHawk also has a built-in compass, so the two must be aligned as well as possible.
 
-![GPS](./GPS.jpg)
+![GPS](./GPS.JPG)
 
 ## Motors and electronic speed controllers (ESC's)
 The propellers of the drone are powered by motors, which in turn is connected to electronic speed controllers (ESC's).
@@ -106,7 +108,7 @@ Do not connect the battery to the rest of the system without supervision, and sh
 The red and black wires of the battery should be connected to a power module (to connect the two, an adapter might be necessary).
 The other side of the power module has three outputs on the other side: a red wire, a black wire, and a third wire that should be connected to the PixHawk power input at the bottom left.
 
-![Power module](./power_module.jpg)
+![Power module](./power_module.JPG)
 
 Of the three output wires, the red and black wires should each be connected to a harness, which splits it five ways.
 Four of these should go to the ESC red and black cables.
@@ -137,7 +139,7 @@ Gradig tips
 The buzzer emits a sound to signal the state of the PixHawk.
 It should be connected to the BUZZER port of the PixHawk.
 
-![buzzer](./buzzer.jpg)
+![buzzer](./buzzer.JPG)
 
 Grading tips
 - The buzzer should not hang loose
@@ -146,7 +148,8 @@ Grading tips
 The Raspberry Pi can be used to program the drone. 
 It can send programming commands to the PixHawk, which will in turn control the motors.
 The pins of the Raspberry Pi should be connected to the TELEM2 port of the Pixhawk (the exact connectivity will be discussed later).
-The Raspberry Pi should be placed close to the PixHawk.
+The Raspberry Pi sits in a case, and should be placed close to the PixHawk.
+It should be easily accessible.
 
 ## Schematic
 The connections of the drone is loosely based on the schematic shown below.
