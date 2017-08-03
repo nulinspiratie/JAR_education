@@ -37,9 +37,9 @@ It is important that this arrow is pointing to the front of the drone (as accura
 
 ![Pixhawk](./pixhawk.jpg)
 
-<!-- Grading tips
+Grading tips
 - Check how well the Pixhawk is pointing to the front of the drone.
-- Check how well the stabilizer is constructed. -->
+- Check how well the stabilizer is constructed.
 
 ## GPS and compass
 The drone comes with a GPS unit. This is used to determine the location of the drone from satellites.
@@ -79,11 +79,11 @@ They should be connected to the corresponding column in the rail (white numbers 
 
 ![pixhawk_rail](./pixhawk_rail.jpg)
 
-<!-- Grading checks:
+Grading checks:
 - Are connector pins easily accessible?
 - Screws of motor should be opposite of each other
 - Cable exiting motor should point inwards
-- All motors are connected to proper column -->
+- All motors are connected to proper column
 
 ## Attaching propellers
 To avoid the drone to start spinning wildly, two of the propellers rotate clockwise (CW), and the other two counterclockwise (CCW).
@@ -119,12 +119,12 @@ Remember that the top row of the PixHawk rail is ground (black), and the middle 
 
 What is a good location for the battery? (center-of-mass!)
 
-<!-- Grading tips:
+Grading tips:
 - Be sure that red is always connected to red, and black to black, never have them mixed up or things will break
 - Check if the cable to connect the power rail is connected properly. Should be third column from the left, and black should be at the top, red in the middle
 - Battery should be in the inside of the drone, in the middle to distribute weight evenly.
 - Battery should be rigid, and should not slide off when tilting the drone.
-- Battery charging cable should be tucked away (not hanging loose). -->
+- Battery charging cable should be tucked away (not hanging loose).
 
 ## Arming button
 To make sure that the drone does not accidentally fly off, there is an arming button that must first be pressed. 
@@ -132,8 +132,8 @@ It should be connected to the SWITCH port of the PixHawk.
 
 ![arming_button](./arming_button.jpg)
 
-<!-- Gradig tips
-- The arming button should not hang loose. -->
+Gradig tips
+- The arming button should not hang loose.
 
 ## Buzzer
 The buzzer emits a sound to signal the state of the PixHawk.
@@ -141,8 +141,8 @@ It should be connected to the BUZZER port of the PixHawk.
 
 ![buzzer](./buzzer.JPG)
 
-<!-- Grading tips
-- The buzzer should not hang loose -->
+Grading tips
+- The buzzer should not hang loose
 
 ## Raspberry Pi
 The Raspberry Pi can be used to program the drone. 
