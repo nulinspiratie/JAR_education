@@ -6,6 +6,8 @@ This guide explains the setup needed to control the PixHawk from the laptop via 
 Control of the PixHawk from the laptop is achieved as follows: The Raspberry Pi is connected to the Pixhawk's TELEM2 port (see http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html].
 The Raspberry Pi hosts a Jupyter Notebook server, which can be accessed from a laptop on the same WiFi network.
 A Jupyter Notebook is an interactive programming environment that allows easy evaluating of code sections.
+This makes programming much easier, since you don't have to evaluate all your code in one go.
+Instead, you can evaluate a part of your code, see if it works, and then continue to the next part.
 
 This guide assumes that the Raspberry Pi is installed and setup correctly (see Raspberry pi installation guide).
 
@@ -69,5 +71,9 @@ After this, vehicle will be an object representing the Pixhawk, and can be commu
 To see a list of possible functions, type `vehicle.`, followed by tab.
 
 Now you should be able to run any of the examples in http://python.dronekit.io/examples/index.html
+
+It is important to remember that code in Jupyter notebook can be run part by part. This means that you don't have to evaluate your whole code in one go.
+Instead, you can evaluate a part, see the result, and then go to the next part of your code.
+To do this, create a cell for each part of the code (click on plus button in a Jupyter notebook)
 
 For more information on connnecting to the vehicle, look at http://python.dronekit.io/guide/connecting_vehicle.html
